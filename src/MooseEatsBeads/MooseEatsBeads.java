@@ -1,12 +1,35 @@
 package MooseEatsBeads;
 
-public class MooseEatsBeads {
+import javafx.application.Application;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+import javafx.event.*;
+import javafx.scene.*;
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
+import javafx.scene.web.WebView;
+import javafx.stage.*;
+
+public class MooseEatsBeads extends Application{
+
+	@Override
+	public void start(Stage primaryStage) {
+
+		WebView webview = new WebView();
+		webview.getEngine().load("https://www.youtube.com/watch?v=A4B6-doaPMY");
+		webview.setPrefSize(640, 390);
 		
-		System.out.println("beads are the thing");
-
+		Scene scene = new Scene(webview);
+		
+		primaryStage.setTitle("I am not sorry.");
+		primaryStage.setScene(scene);
+		primaryStage.show();
+	
+	}
+	
+	
+	public static void main(String args[]) {
+		
+		launch(args);
 	}
 
 }

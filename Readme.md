@@ -23,3 +23,6 @@ This is a required package.
 https://openjfx.io/
 Here is a tutorial for setting it up becasue ya, I guess it needs to be that complicated doesn't it Oracle...
 https://www.javatpoint.com/javafx-with-eclipse
+
+This has been hit and miss on the setup. I don't know how it is working for me right now.
+Probably install the "e(fx)clipse 3.7.0" package from the eclipse marketplace? That might work better than manual setup?

@@ -7,14 +7,15 @@ The purpose of this program is to take an image file and convert it to a format 
 ## Install
 
 Java version 16 (or something) needs to be installed. Java.com if you don't have it.
-Download the latest beads.jar file from the build/ folder
-Double click it.
-A config file and save files will be made in the directory where it is. So probably move it out of your downloads or documents folder. (TODO system dependent config storage and installer)
+Download the latest MooseEatsBeads.jar and run.bat file from the build/ folder
+Then double click run.bat (hopefully. please java. just work.)
+
 
 
 ## Coding Setup
 
-for now: eclipse v. 4.20.0 // ohhhh 420 (sryihadto)
+for now: eclipse v. 4.20.0
+OpenJDK version 16  (There were some issues, please make sure it runs on JRE 1.8 before commit)
 
 Eventually I would like to have this done in command line with a Bash script or something. Terminal life is best life.
 

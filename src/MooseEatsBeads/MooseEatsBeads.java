@@ -1,11 +1,13 @@
 package MooseEatsBeads;
 
-import javafx.application.Application;
 
+// JavaFx imports
+import javafx.application.Application;
 import javafx.event.*;
 import javafx.scene.*;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
 import javafx.scene.web.WebView;
 import javafx.stage.*;
 
@@ -14,15 +16,25 @@ public class MooseEatsBeads extends Application{
 	@Override
 	public void start(Stage primaryStage) {
 
+		Stage secondaryStage = new Stage();
+		
 		WebView webview = new WebView();
 		webview.getEngine().load("https://www.youtube.com/watch?v=A4B6-doaPMY");
 		webview.setPrefSize(640, 390);
 		
-		Scene scene = new Scene(webview);
+		VBox vbox = new VBox();
+		Label lbl = new Label("thing");
 		
-		primaryStage.setTitle("I am not sorry.");
-		primaryStage.setScene(scene);
-		primaryStage.show();
+		vbox.getChildren().addAll(lbl);
+		
+		
+		vbox.getChildren().addAll(webview);
+
+		Scene scene = new Scene(vbox, 400,350);
+		
+		secondaryStage.setTitle("I am not sorry.");
+		secondaryStage.setScene(scene);
+		secondaryStage.show();
 	
 	}
 	

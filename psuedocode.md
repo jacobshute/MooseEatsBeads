@@ -3,7 +3,7 @@ this is pretty much all the stuff that should be in the program, from a programm
 All of the psuedocode really.
 
 
-## Image storage class
+## Sprite storage class (TODO name this better)
 holds the pixel data of an image
 
 array to hold pixel data
@@ -17,6 +17,9 @@ function to store Image
     input of file name
     input of image data
     input of image type?
+
+Editing functions?
+crop, color change, resize, etc?
 
 ## Bead grid storage class?
 should this be part of the image class or its own thing?
@@ -53,6 +56,27 @@ function to store library to file
 ## Display class (or panel or w/e its called)
 The parent class for all the display elements
 
+### Menu (file menu and such)
+File >
+    Import from file
+    Import from Clipboard
+    Export Pattern
+    Finish Project
+    Exit
+View >
+    Image Report
+    Image >
+        (check) Pegs
+        (check) Grid
+        Flip Horizontal
+        Original Color
+    Bead management
+Pallet >
+    Edit Image Pallet
+Help >
+    Website
+    About
+(dropdown) Zoom
 
 ### Library Window
 Opens a pane (or something?) that shows the users bead library and allows edits
@@ -69,10 +93,6 @@ Displays the beads for the project
 
 ### Bead board display
 Displays an underlay of beadboards for the project
-----------
-
-### Image editing functions
-crop, color change, resize, etc?
 
 ### Report display
 Shows the beads needed for the project
@@ -81,6 +101,7 @@ Shows the beads needed for the project
 Display infor for the bead/pixel under the cursor
 Also, should have a zoom window for this?
 
+----------
 
 
 ## Settings class

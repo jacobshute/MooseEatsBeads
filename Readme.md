@@ -6,23 +6,28 @@ The purpose of this program is to take an image file and convert it to a format 
 
 ## Install
 
-Java version 16 (or something) needs to be installed. Java.com if you don't have it.
-Download the latest MooseEatsBeads.jar and run.bat file from the build/ folder
+Download the MooseEatsBeads.zip,
+Extract,
 Then double click run.bat (hopefully. please java. just work.)
 
 
+To run the Jar file without downloading the entire zip:
+Java version 11 needs to be installed. Java.com if you don't have it.
+Javafx 11 needs to be in the module path
+good luck.
 
 ## Coding Setup
 
-for now: eclipse v. 4.20.0
-OpenJDK version 16  (There were some issues, please make sure it runs on JRE 1.8 before commit)
+OpenJDK version 11
+Javafx version 11 
+Bash of some sort (git-bash works great)
+Text Editor (jacobshute uses VSCode but anything should work)
 
-Eventually I would like to have this done in command line with a Bash script or something. Terminal life is best life.
 
-This is a required package. 
+for Eclipse v. 4.20.0
+This is a required package:
 https://openjfx.io/
 Here is a tutorial for setting it up becasue ya, I guess it needs to be that complicated doesn't it Oracle...
 https://www.javatpoint.com/javafx-with-eclipse
-
-This has been hit and miss on the setup. I don't know how it is working for me right now.
-Probably install the "e(fx)clipse 3.7.0" package from the eclipse marketplace? That might work better than manual setup?
+This is the runtime that I have pasted in:
+https://adoptopenjdk.net/archive.html
